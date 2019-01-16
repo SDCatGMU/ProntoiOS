@@ -31,29 +31,45 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pronto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdc-M4-Da0">
-                                <rect key="frame" x="85" y="193" width="213" height="93"/>
+                                <rect key="frame" x="81" y="287" width="213" height="93"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="93" id="7G4-hx-9X0"/>
-                                    <constraint firstAttribute="width" constant="213" id="ZQE-0i-G1N"/>
+                                    <constraint firstAttribute="height" constant="93" id="5iM-An-33y"/>
+                                    <constraint firstAttribute="width" constant="213" id="CC1-do-tGi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="71"/>
                                 <color key="textColor" red="0.92549019607843142" green="0.94117647058823528" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2JZ-eR-vOB">
-                                <rect key="frame" x="142" y="471" width="91" height="45"/>
+                                <rect key="frame" x="57.5" y="545" width="260" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Lrc-Za-KTm"/>
+                                    <constraint firstAttribute="width" constant="260" id="dXD-yC-ZCc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.92671477794647217" green="0.42830994725227356" blue="0.38428297638893127" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="B8Z-1t-zZW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhl-5F-9GB">
-                                <rect key="frame" x="152" y="418" width="70" height="45"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                <state key="normal" title="Log In">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhl-5F-9GB">
+                                <rect key="frame" x="0.0" y="595" width="375" height="32"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <state key="normal" title="Already have an account? Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -63,18 +79,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.29019607843137252" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="2JZ-eR-vOB" firstAttribute="top" secondItem="zhl-5F-9GB" secondAttribute="bottom" constant="8" symbolic="YES" id="05p-eD-KJw"/>
+                            <constraint firstItem="zhl-5F-9GB" firstAttribute="trailing" secondItem="Mw6-v7-rSz" secondAttribute="trailing" id="2Lt-8O-LJT"/>
+                            <constraint firstItem="2JZ-eR-vOB" firstAttribute="centerX" secondItem="mea-ia-5pZ" secondAttribute="centerX" id="7Gx-WD-3pU"/>
+                            <constraint firstItem="hdc-M4-Da0" firstAttribute="centerY" secondItem="mea-ia-5pZ" secondAttribute="centerY" id="9ss-jR-wOp"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="bottom" secondItem="Mw6-v7-rSz" secondAttribute="bottom" id="D3Y-Q7-Gcy"/>
-                            <constraint firstItem="hdc-M4-Da0" firstAttribute="leading" secondItem="Mw6-v7-rSz" secondAttribute="leading" constant="85" id="JH2-yY-T0E"/>
-                            <constraint firstItem="zhl-5F-9GB" firstAttribute="leading" secondItem="Mw6-v7-rSz" secondAttribute="leading" constant="152" id="NCE-VD-Tiu"/>
-                            <constraint firstItem="hdc-M4-Da0" firstAttribute="top" secondItem="Mw6-v7-rSz" secondAttribute="top" constant="173" id="Xd5-mz-Azq"/>
+                            <constraint firstItem="zhl-5F-9GB" firstAttribute="leading" secondItem="Mw6-v7-rSz" secondAttribute="leading" id="FgQ-uU-egJ"/>
+                            <constraint firstItem="hdc-M4-Da0" firstAttribute="centerX" secondItem="mea-ia-5pZ" secondAttribute="centerX" id="Wp7-jS-ltp"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="top" secondItem="mea-ia-5pZ" secondAttribute="top" id="Xx9-bP-JKQ"/>
-                            <constraint firstItem="Mw6-v7-rSz" firstAttribute="trailing" secondItem="hdc-M4-Da0" secondAttribute="trailing" constant="77" id="aff-Cc-JGz"/>
-                            <constraint firstItem="Mw6-v7-rSz" firstAttribute="bottom" secondItem="2JZ-eR-vOB" secondAttribute="bottom" constant="151" id="hfU-ey-8wH"/>
+                            <constraint firstItem="Mw6-v7-rSz" firstAttribute="bottom" secondItem="zhl-5F-9GB" secondAttribute="bottom" constant="40" id="f5k-Bz-u0B"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="trailing" secondItem="Mw6-v7-rSz" secondAttribute="trailing" id="lZq-l6-7GQ"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="leading" secondItem="Mw6-v7-rSz" secondAttribute="leading" id="p0Q-yA-r2G"/>
-                            <constraint firstItem="zhl-5F-9GB" firstAttribute="centerX" secondItem="mea-ia-5pZ" secondAttribute="centerX" id="pQp-gg-hCG"/>
-                            <constraint firstItem="zhl-5F-9GB" firstAttribute="centerX" secondItem="2JZ-eR-vOB" secondAttribute="centerX" id="xj2-ju-1df"/>
+                            <constraint firstItem="zhl-5F-9GB" firstAttribute="top" secondItem="2JZ-eR-vOB" secondAttribute="bottom" id="wyl-l6-6t0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mw6-v7-rSz"/>
                     </view>
