@@ -25,6 +25,7 @@
 		99B56BC621EE7D3100966DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B56BC421EE7D3100966DC6 /* LaunchScreen.storyboard */; };
 		99B56BD121EE7D3100966DC6 /* ProntoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B56BD021EE7D3100966DC6 /* ProntoTests.swift */; };
 		99B56BDC21EE7D3100966DC6 /* ProntoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B56BDB21EE7D3100966DC6 /* ProntoUITests.swift */; };
+		D793FB2421EFCFD8001BB0A7 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D793FB2321EFCFD8001BB0A7 /* DesignableView.swift */; };
 		E0246E78E5C5D2E11A96589F /* Pods_Pronto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D92F5026B66A0C2165CF65C /* Pods_Pronto.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		C7B92F3F0728D52C60C0F0B6 /* Pods-ProntoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProntoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProntoUITests/Pods-ProntoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1D762723BE42666347B2AE /* Pods-Pronto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pronto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pronto/Pods-Pronto.debug.xcconfig"; sourceTree = "<group>"; };
 		D1D65CAB7D38F5FD743CFD3F /* Pods_ProntoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProntoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D793FB2321EFCFD8001BB0A7 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		FC7FC563A6C0FF61ED84DBCA /* Pods-ProntoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProntoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProntoUITests/Pods-ProntoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +176,7 @@
 				99B56BBF21EE7D3000966DC6 /* Main.storyboard */,
 				99B56BC221EE7D3100966DC6 /* Assets.xcassets */,
 				99B56BC421EE7D3100966DC6 /* LaunchScreen.storyboard */,
+				D793FB2321EFCFD8001BB0A7 /* DesignableView.swift */,
 				99B56BC721EE7D3100966DC6 /* Info.plist */,
 				993B488221EE8231002334B4 /* GoogleService-Info.plist */,
 			);
@@ -448,6 +451,7 @@
 			files = (
 				993B488F21EE9378002334B4 /* SignInViewController.swift in Sources */,
 				993B488721EE853F002334B4 /* DataService.swift in Sources */,
+				D793FB2421EFCFD8001BB0A7 /* DesignableView.swift in Sources */,
 				99AE389D21EF806000B8B630 /* MainTabController.swift in Sources */,
 				99B56BBE21EE7D3000966DC6 /* SignUpViewController.swift in Sources */,
 				99B56BBC21EE7D3000966DC6 /* AppDelegate.swift in Sources */,
