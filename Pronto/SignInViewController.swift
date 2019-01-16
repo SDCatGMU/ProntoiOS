@@ -5,6 +5,7 @@
 //  Created by Steve Sahayadarlin on 1/15/19.
 //  Copyright © 2019 Steve Sahayadarlin. All rights reserved.
 //
+import Foundation
 import UIKit
 import Firebase
 
