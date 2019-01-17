@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XH5-5x-mSW" userLabel="BgView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="415" height="739"/>
                             </view>
                             <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hg6-TY-QDD">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -89,9 +89,9 @@
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="top" secondItem="mea-ia-5pZ" secondAttribute="top" id="Xx9-bP-JKQ"/>
                             <constraint firstItem="Mw6-v7-rSz" firstAttribute="bottom" secondItem="zhl-5F-9GB" secondAttribute="bottom" constant="40" id="f5k-Bz-u0B"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="trailing" secondItem="Mw6-v7-rSz" secondAttribute="trailing" id="lZq-l6-7GQ"/>
-                            <constraint firstAttribute="trailing" secondItem="XH5-5x-mSW" secondAttribute="trailing" id="nd6-1h-so5"/>
+                            <constraint firstAttribute="trailing" secondItem="XH5-5x-mSW" secondAttribute="trailing" constant="-40" id="nd6-1h-so5"/>
                             <constraint firstItem="Hg6-TY-QDD" firstAttribute="leading" secondItem="Mw6-v7-rSz" secondAttribute="leading" id="p0Q-yA-r2G"/>
-                            <constraint firstItem="XH5-5x-mSW" firstAttribute="bottom" secondItem="Mw6-v7-rSz" secondAttribute="bottom" id="s1d-aU-4zk"/>
+                            <constraint firstItem="XH5-5x-mSW" firstAttribute="bottom" secondItem="Mw6-v7-rSz" secondAttribute="bottom" constant="72" id="s1d-aU-4zk"/>
                             <constraint firstItem="zhl-5F-9GB" firstAttribute="top" secondItem="2JZ-eR-vOB" secondAttribute="bottom" id="wyl-l6-6t0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mw6-v7-rSz"/>
