@@ -262,9 +262,8 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="fxs-CT-Xjv"/>
                                 </constraints>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="x68-dD-qoo">
-                                <rect key="frame" x="30" y="206" width="310" height="370"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="x68-dD-qoo">
+                                <rect key="frame" x="32.5" y="188" width="310" height="370"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="EVu-LN-7yJ">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="170"/>
@@ -566,28 +565,42 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="370" id="WFR-bu-U8K"/>
+                                    <constraint firstAttribute="width" secondItem="x68-dD-qoo" secondAttribute="height" multiplier="31:37" id="j27-oE-Eis"/>
+                                    <constraint firstAttribute="width" constant="310" id="q4X-OS-APf"/>
+                                </constraints>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KS0-dD-FlM" userLabel="Search">
-                                <rect key="frame" x="0.0" y="72" width="375" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KS0-dD-FlM" userLabel="Search">
+                                <rect key="frame" x="0.0" y="71" width="375" height="89"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-f3-cp3">
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-f3-cp3">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CXh-f3-cp3" firstAttribute="leading" secondItem="KS0-dD-FlM" secondAttribute="leading" id="2rF-lZ-uRI"/>
+                                    <constraint firstAttribute="trailing" secondItem="CXh-f3-cp3" secondAttribute="trailing" id="HyW-0E-8kb"/>
+                                    <constraint firstItem="CXh-f3-cp3" firstAttribute="top" secondItem="KS0-dD-FlM" secondAttribute="top" id="cuf-yr-QSd"/>
+                                    <constraint firstAttribute="height" constant="89" id="pcg-ay-L3r"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="KS0-dD-FlM" firstAttribute="trailing" secondItem="XVJ-QY-0fV" secondAttribute="trailing" id="1Zg-WH-y6a"/>
                             <constraint firstItem="MPv-L0-hOp" firstAttribute="top" secondItem="chX-i5-gJk" secondAttribute="top" id="2Dx-WC-Xtn"/>
+                            <constraint firstItem="XVJ-QY-0fV" firstAttribute="bottom" secondItem="x68-dD-qoo" secondAttribute="bottom" constant="60" id="D0b-AX-5jB"/>
+                            <constraint firstItem="KS0-dD-FlM" firstAttribute="top" secondItem="nXE-B6-YOv" secondAttribute="bottom" id="Dp4-ag-fj2"/>
                             <constraint firstItem="MPv-L0-hOp" firstAttribute="centerX" secondItem="chX-i5-gJk" secondAttribute="centerX" id="H1m-0C-cOc"/>
                             <constraint firstAttribute="trailing" secondItem="nXE-B6-YOv" secondAttribute="trailing" id="J0K-Ne-0Oc"/>
                             <constraint firstItem="nXE-B6-YOv" firstAttribute="top" secondItem="MPv-L0-hOp" secondAttribute="bottom" id="TnK-8O-l84"/>
                             <constraint firstItem="nXE-B6-YOv" firstAttribute="leading" secondItem="chX-i5-gJk" secondAttribute="leading" id="cpm-CR-J7G"/>
+                            <constraint firstItem="x68-dD-qoo" firstAttribute="centerX" secondItem="chX-i5-gJk" secondAttribute="centerX" id="q3h-q2-5Hx"/>
                             <constraint firstItem="MPv-L0-hOp" firstAttribute="leading" secondItem="chX-i5-gJk" secondAttribute="leading" id="qid-gD-GAO"/>
+                            <constraint firstItem="KS0-dD-FlM" firstAttribute="leading" secondItem="XVJ-QY-0fV" secondAttribute="leading" id="sea-RY-mdg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XVJ-QY-0fV"/>
                     </view>
